@@ -3,3 +3,16 @@ body, html {
   color:#777;
   line-height: 1.8;
 }
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .bgimg-1 {
+    background-image: url('jim.jpg');
+    min-height: 100%;
+}
