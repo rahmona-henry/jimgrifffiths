@@ -16,3 +16,8 @@ body, html {
     background-image: url('jim6.jpg');
     min-height: 100%;
 }
+
+ .bgimg-2 {
+  background-image: url("jim.jpg");
+  min-height:400px;
+}
