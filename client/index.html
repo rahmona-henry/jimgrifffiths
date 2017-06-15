@@ -214,6 +214,14 @@ function myMap()
   });
   marker.setMap(map);
 }
+
+//Modal Image Gallery
+function onClick(element){
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal101").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKIMakwX-LC3BQfy6nimvULnxwu6sj_Y&callback=myMap"></script>
   </body>
