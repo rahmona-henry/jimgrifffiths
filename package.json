@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rahmona-henry/jimgrifffiths#readme",
   "dependencies": {
     "express": "^4.15.3",
+    "firebase": "^4.1.2",
     "jquery": "^3.2.1"
   }
 }
